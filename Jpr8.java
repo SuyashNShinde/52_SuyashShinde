@@ -1,7 +1,7 @@
 package com.google;
 /*
-Author: Vaibhavi Dixit
-code for compound ssignment operators
+Author: Suyash Shinde
+code for compound assignment operators
  */
 public class JPR8 {
     public static void main(String[] args) {
