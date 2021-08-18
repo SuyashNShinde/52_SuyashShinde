@@ -1,4 +1,4 @@
-1) Reverse a String and Print it on Console "JAVA Skills"
+1) Reverse a String and Print it on Console "Java Skills"
 package com.google;
 
 public class Ass1 {
@@ -21,7 +21,7 @@ package com.google;
 
 public class Ass2 {
     public static void main(String[] args) {
-        String x="27-11-2003";
+        String x="18-03-2003";
         // using split method on string object...it return array of splited characters
         String d=x.split("-")[0];// extract date
         String m=x.split("-")[1];// extract month
