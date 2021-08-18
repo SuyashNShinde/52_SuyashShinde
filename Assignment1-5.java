@@ -22,7 +22,7 @@ package com.google;
 public class Ass2 {
     public static void main(String[] args) {
         String x="18-03-2003";
-        // using split method on string object...it return array of splited characters
+        // using split method 
         String d=x.split("-")[0];// extract date
         String m=x.split("-")[1];// extract month
         String y=x.split("-")[2];// extract year
