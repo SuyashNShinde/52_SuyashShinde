@@ -1,5 +1,10 @@
 package com.google;
 
+/*
+Author: Suyash Shinde
+code for method overloading and overriding
+* */
+
 class Addition{
     //method overloading
     int result(int a,int b){
