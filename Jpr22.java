@@ -1,57 +1,76 @@
-package com.Training;
+package com.google;
 
-public class Jpr22 {
+class Addition{
+    //method overloading
+    int result(int a,int b){
+        return a+b;
+    }
+    int result(int a,int b,int c){
+        return a+b+c;
+    }
+    int result(int a,int b,int c,int d){
+        return a+b+c+d;
+    }
+}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Arithmatic_Operation obj=new Arithmatic_Operation();
-		//Method overloading
-		System.out.println(obj.Mul(10,20));
-		System.out.println(obj.Mul(45,20,45));
-		System.out.println(obj.Mul(70,28,76,87));
-		////Method overriding 
-		Arithmatic_Operation obj1=new Arithmatic_Operation();
-		Arithmatic_Operation obj2=new sub_class();
-		sub_class obj3= new sub_class();
-		obj1.print();
-		obj2.print();
-		obj3.print();	
+class Subtraction extends Addition{
+    //method overriding
+    int result(int a,int b){
+        return a-b;
+    }
+    int result(int a,int b,int c){
+        return a-b-c;
+    }
+    int result(int a,int b,int c,int d){
+        return a-b-c-d;
+    }
+}
+class Multiplication extends Addition{
+    //method overriding
+    int result(int a,int b){
+        return a*b;
+    }
+    int result(int a,int b,int c){
+        return a*b*c;
+    }
+    int result(int a,int b,int c,int d){
+        return a*b*c*d;
+    }
+}
+class Division extends Addition{
+    //method overriding
+    int result(int a,int b){
+        return a/b;
+    }
 
-	}// end main
-
-}// end class
-
-//Super class
-class Arithmatic_Operation {
-	int Mul(int a,int b)
-	{
-		return(a*b);
-		
-	}
-	int Mul(int a,int b,int c)
-	{
-		return(a*b*c);
-		
-	}
-	int Mul(int a,int b,int c,int d)
-	{
-		return(a*b*c*d);
-		
-	}
-	void print()
-	{
-		System.out.println("Its From Superclass");
-	}
-}//end Arithmatic_Operation
-
-//Subclass
+}
 
 
-class sub_class extends Arithmatic_Operation{
-	void print()
-	{
-		System.out.println("Its from Subclass");
-	}
-	
+public class JPR22 {
 
-}//end sub_class
+    public static void main(String[] args) {
+        Addition a1=new Addition();
+        Subtraction s1=new Subtraction();
+        Multiplication m1=new Multiplication();
+        Division d1=new Division();
+
+        System.out.println("Sum: "+a1.result(1,2));
+        System.out.println("Sum: "+a1.result(1,2,5));
+        System.out.println("Sum: "+a1.result(1,2,9,6));
+
+        System.out.println("Subtraction: "+s1.result(10,2));
+        System.out.println("Subtraction:  "+s1.result(50,20,5));
+        System.out.println("Subtraction: "+s1.result(77,26,19,4));
+
+        System.out.println("Multiplication: "+m1.result(90,2));
+        System.out.println("Multiplication: "+m1.result(12,2,4));
+        System.out.println("Multiplication: "+m1.result(12,2,4,7));
+
+        System.out.println("Division: "+d1.result(12,2));
+
+
+
+    }//main method ends
+
+
+}//JPR22 ends
