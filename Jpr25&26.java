@@ -54,8 +54,6 @@ class result extends arithmetic
 
 
 
-
-
 package com.Training;
 
 public class Jpr26 {
