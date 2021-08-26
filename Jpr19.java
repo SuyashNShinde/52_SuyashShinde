@@ -4,7 +4,7 @@ Author : suyash
 code for demonstrate java methods
 * */
 
-public class JPR19 {
+public class Jpr19 {
 
 //    method without argument and without return type
     void greet(){
