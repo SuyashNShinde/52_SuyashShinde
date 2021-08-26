@@ -88,7 +88,7 @@ class Student{
 
 }
 
-public class JPR23 {
+public class Jpr23 {
 
 
     public static void main(String[] args) {
