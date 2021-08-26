@@ -99,7 +99,7 @@ class Account extends Sales{
     }
 }
 
-public class JPR24 {
+public class Jpr24 {
 
 	/**
 	 * @param args
