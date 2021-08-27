@@ -68,7 +68,7 @@ class RoboCar extends Robot{
   }
 
 
-public class JPR27 {
+public class Jpr27 {
 
     public static void main(String[] args) {
         Robot r1=new Robot();//object of Robot
@@ -80,9 +80,10 @@ public class JPR27 {
         RoboCar rc=new RoboCar(); //object of RoboCar
         rc.intellisense();
         rc.working();
+        rc.functions();
 
 
     }//main method ends
 
 
-}//JPR27 ends
+}//Jpr27 ends
