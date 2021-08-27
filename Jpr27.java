@@ -62,7 +62,7 @@ class RoboCar extends Robot{
     
     @Override
       public void functions() {
-          System.out.println("Tesla car automatically opening closing door , adjustable trunk size and avoid collosions");
+          System.out.println("Tesla car automatically opening closing door , adjustable trunk size as well as self cooling and avoid collosions");
     }
   
   }
