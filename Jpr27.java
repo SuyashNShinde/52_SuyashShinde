@@ -18,7 +18,7 @@ class Robot implements Machine,AI{
     final String name="Tesla Robot";
     final double ratings;
     Robot(){
-        ratings=4.6; //initialize final variable here
+        ratings=4.0; //initialize final variable here
     }
 
     //override methods of both interfaces
