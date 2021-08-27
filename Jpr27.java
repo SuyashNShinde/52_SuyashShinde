@@ -23,7 +23,7 @@ class Robot implements Machine,AI{
 
     //override methods of both interfaces
     public final void Intro(){
-        System.out.println("Hello i am "+name+" i can obey your all commands ");
+        System.out.println("Hello i am "+name+" i can obey your every commands. ");
     }
     @Override
     public void working() {
