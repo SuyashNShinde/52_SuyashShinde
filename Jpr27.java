@@ -32,7 +32,7 @@ class Robot implements Machine,AI{
 
     @Override
     public void functions() {
-        System.out.println("Can do household chores");
+        System.out.println("Can do anything like humans");
     }
 
     @Override
