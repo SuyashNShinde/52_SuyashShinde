@@ -36,10 +36,10 @@ public class Jpr19 {
 
     static void outcome(){
         //lets call static method here
-        JPR19.course();//yes we can call static method from this static method
+        Jpr19.course();//yes we can call static method from this static method
         System.out.println("This course will give you knowledge about java and advance java ");
         //lets call instance method here
-        JPR19 ob1=new JPR19();
+        Jpr19 ob1=new JPR19();
         ob1.greet(); // yes we can call instance method but using object only
     }
 
@@ -52,7 +52,7 @@ public class Jpr19 {
 
     public static void main(String[] args) {
 
-        JPR19 obj=new JPR19();
+        Jpr19 obj=new JPR19();
         obj.greet();//calling method without argument and without return type
 
         int a=obj.add(23,78);//calling method with argument and with return type
@@ -61,11 +61,11 @@ public class Jpr19 {
         double temp=obj.temperatue();// calling method without argument and with return type
         System.out.println("Temperatue is: "+temp);
 
-        obj.fullName("Vaibhavi","Dattatraya","Dixit");//calling method with argument and without return type
+        obj.fullName("Suyash","Navanath","Shinde");//calling method with argument and without return type
 
         // calling static method using class name
-        JPR19.course();
-        JPR19.outcome();
+        Jpr19.course();
+        Jpr19.outcome();
 
     }
 }
